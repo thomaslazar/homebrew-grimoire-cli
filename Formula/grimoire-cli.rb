@@ -1,26 +1,26 @@
 class GrimoireCli < Formula
   desc "Command-line interface for Grimoire, a self-hosted TTRPG library manager"
   homepage "https://github.com/thomaslazar/grimoire-cli"
-  version "0.7.3"
+  version "0.7.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.3/grimoire-cli-osx-arm64"
-      sha256 "bdb741267021e82bb043dc45a91efac53fdbc66bf02512d082b5e122903e8517"
+      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.4/grimoire-cli-osx-arm64"
+      sha256 "530eb983266a661abd10214821b4aa1d7fd287a4f97c49aecba90af85f9d4a11"
     else
-      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.3/grimoire-cli-osx-x64"
-      sha256 "f9040b3f3b6db943834337fbd9279c9e8a4f4e387fe0b500a181361ee5b071ee"
+      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.4/grimoire-cli-osx-x64"
+      sha256 "0943fafc2060980f924e48516d25d9d6daf92df8ba6ae06f4446a817514f6ed0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.3/grimoire-cli-linux-arm64"
-      sha256 "2dd1e208ede6567f09e1a40ad040ed52c6d5ccaf6e66237cb1e03162355d4c19"
+      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.4/grimoire-cli-linux-arm64"
+      sha256 "313e38c76fd9144906f4fc25e109a0e13a6f0c1ccfd9e0c1cf53cc7c93288f56"
     else
-      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.3/grimoire-cli-linux-x64"
-      sha256 "e01d7a9677e157a7dcdd6d8cea0d7c22254141d667702cc39e5c1675ae6da1f4"
+      url "https://github.com/thomaslazar/grimoire-cli/releases/download/v0.7.4/grimoire-cli-linux-x64"
+      sha256 "dba3e3f2fa7d1ba1c5c9b414c7ebdbe0ec4e51c58276e118b47c77b2ef5328fb"
     end
   end
 
